@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Little Gearworks</title>
+    <script>
+      const entry = new URLSearchParams(location.search)
+      if (!entry.has('chapters') && !entry.has('chapter')) location.replace('./mill-3d.html')
+    </script>
+    <script type="module" crossorigin src="/little-gearworks-play/assets/game-DQOvIUTw.js"></script>
+    <link rel="modulepreload" crossorigin href="/little-gearworks-play/assets/mill-3d-save-BjfO2Zhr.js">
+    <link rel="stylesheet" crossorigin href="/little-gearworks-play/assets/game-Xq-Eit3k.css">
+  </head>
+  <body>
+    <aside id="rotate-prompt" aria-label="Landscape play">
+      <p>For larger controls, turn your device sideways.</p>
+    </aside>
+    <main id="game" aria-label="Little Gearworks"></main>
+  </body>
+</html>
